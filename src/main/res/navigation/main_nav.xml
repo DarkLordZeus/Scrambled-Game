@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.scrambled.GameFragment"
+        android:label="SCRAMBLED"
+        tools:layout="@layout/game_fragment"
+        >
+        <action
+            android:id="@+id/action_gameFragment_to_answers"
+            app:destination="@id/answers" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.scrambled.Settings"
+        android:label="SETTINGS"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.example.scrambled.ThemeFragment"
+        android:label="THEMES"
+        tools:layout="@layout/fragment_theme" />
+    <fragment
+        android:id="@+id/answers"
+        android:name="com.example.scrambled.Answers"
+        android:label="SOLUTION"
+        tools:layout="@layout/fragment_answers" />
+</navigation>

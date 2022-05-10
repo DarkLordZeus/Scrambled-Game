@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Scrambled</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1_of_10_words">1/10 Words</string>
+    <string name="score_20">Score:20</string>
+    <string name="scramble">scramble</string>
+    <string name="unscramble_the_words_using_all_the_letters">Unscramble the words</string>
+    <string name="word">WORD</string>
+    <string name="skip">SKIP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="you_scored_10_30">You Scored</string>
+    <string name="congratulations">CONGRATULATIONS!</string>
+    <string name="retry">RETRY</string>
+    <string name="exit">EXIT</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="saveno">SAVE</string>
+    <string name="cancelno">CANCEL</string>
+    <string name="home1">HOME</string>
+    <string name="restart">RESTART</string>
+    <string name="_10">10</string>
+    <string name="set_the_words_count">words count</string>
+    <string name="settings">SETTINGS</string>
+    <string name="theme">THEME</string>
+    <string name="themessss">THEMES</string>
+</resources>
